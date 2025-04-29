@@ -222,6 +222,13 @@ h1, h2, h3{
 footer{
     height: 300px;
     background-color: #242222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
 }
 @media screen and (max-width:600px) and (min-width:360px){
     .hero{
