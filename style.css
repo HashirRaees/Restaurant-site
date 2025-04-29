@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 *{
     margin: 0;
@@ -10,6 +11,19 @@ h1, h2, h3{
 }
 .link-hover:hover{
     color: rgb(247, 232, 104);
+}
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: #242222;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.navbar-brand:hover{
+    cursor: pointer;
+    color:#d99d0d;
+    text-shadow: 2px 2px 2px 8px #d99d0d;
 }
 .hero{
     height: 900px;
@@ -106,7 +120,7 @@ h1, h2, h3{
 }
 .stock-left{
     width: 40%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -162,6 +176,52 @@ h1, h2, h3{
     border-radius: 30px;
     width: 43%;
     height: 500px;
+}
+.con{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1a1a1a;
+    gap: 20px;
+}
+.first{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.first p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.first span{
+    color: #d99d0d;
+    font-size: 18px;
+    font-weight: 600;
+}
+.circle2{
+    height: 80px;
+    width: 80px;
+    background-color: #99e54d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+footer{
+    height: 300px;
+    background-color: #242222;
 }
 @media screen and (max-width:600px) and (min-width:360px){
     .hero{
@@ -247,5 +307,16 @@ h1, h2, h3{
     .right-image3{
         width: 80%;
         height: 300px;
+    }
+    .con{
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .first{
+        width: 70%;
+        height: 300px;
+        text-align: center;
     }
 }

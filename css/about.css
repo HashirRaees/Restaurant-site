@@ -1,0 +1,98 @@
+body{
+    background-color: #f9f6ee;
+}
+.about-hero{
+   height: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 87%;
+    height: 600px;
+    background-color: white;
+    border-radius: 40px;
+}
+.stock-left{
+    gap: 40px;
+}
+.stock-left h1{
+    font-size: 40px;
+}
+.second{
+    height: 500px;
+    background-color: #d99d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 85%;
+    height: 400px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 8px;
+}
+.sec-btn{
+    width: 16%;
+}
+.inner h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.right-image4{
+    background-image: url(../assets/high-angle-shot-vegetable-salad-white-bowl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-position: 50%;
+    width: 43%;
+    height: 500px;
+}
+@media screen and (max-width:600px) and (min-width:360px){
+    .about-hero{
+        height: 1100px;
+    }
+    .about-banner{
+        flex-direction: column;
+        justify-content: center;
+        height: 980px;
+    }
+    .stock-left{
+        gap: 20px;
+        height: 500px;
+    }
+    .stock-left h1{
+        font-size: 20px;
+    }
+    .second{
+        height: 700px;
+    }
+    .inner h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .inner{
+        width: 80%;
+        padding: 10px;
+        height: 600px;
+    }
+    .sec-btn{
+        width: 50%;
+    }
+    .right-image4{
+        width: 80%;
+        height: 300px;
+    }
+    
+}
